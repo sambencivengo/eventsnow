@@ -18,12 +18,12 @@ useEffect(() => {
     console.log("error", error);
   })},[])
 
-const username = newData.map(user => {
-  return <h2 key={user.id}>{user.username}</h2> })
+// const username = newData.map(user => {
+//   return <h2 key={user.id}>{user.username}</h2> })
 
   return (
     <div className="App">
-      {console.log("Hello")}
+      {console.log(newData)}
       <Login />
     </div>
   );
