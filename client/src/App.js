@@ -23,6 +23,7 @@ const username = newData.map(user => {
 
   return (
     <div className="App">
+      {console.log("Hello")}
       <Login />
     </div>
   );
